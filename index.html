@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Chicle&family=Karla:ital,wght@0,200..800;1,200..800&family=Plaster&display=swap" rel="stylesheet">
+    <title>Secure-Gen</title>
+</head>
+<body>
+    <div id="app-card">
+        <div id="top-screen">
+            <h1>Generate a <br>
+                <span id="random">random password</span>
+            </h1>
+            <h3 id="tagline">Never use an insecure password again</h3>
+            <button  class="pass" onclick="generate()"> Generate</button>
+        </div>
+        <hr>
+        <div id="gen-screen">
+            <label  class="pass" for="pass1" id="pass1">Password</label>
+            <label class="pass" for="pass2" id="pass2">Password</label>
+        </div>
+    </div>
+    
+    <script src="app.js"></script>
+</body>
+</html>

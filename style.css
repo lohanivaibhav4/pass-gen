@@ -1,0 +1,68 @@
+body{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.858), rgb(40, 39, 39));
+    display: flex;
+    justify-content: center;
+    font-family: karla;
+    color: white;
+}
+#app-card{
+    
+    display: flex;
+    flex-direction: column;
+    margin: 24px 24px;
+    width: 600px;
+    height: 90vh;
+    background-color: #1f2937;
+    border: 3px solid #36475f;
+    border-radius: 10px;
+    justify-content: space-evenly;
+    
+}
+#random{
+    color: #4adf86;
+}
+h1{
+    font-size: 40px;
+    font-weight:800;
+    line-height: 40px;
+    margin-bottom: 10px;
+}
+h3{
+    font-weight: 100;
+    font-size: x-large;
+    font-family: inter;
+    margin-top: 0px;
+}
+
+#top-screen{
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    
+
+}
+#gen-screen{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-right: 50px;
+    
+}
+.pass{
+    background-color: #4adf86;
+    color: white;
+    width: 190px;
+    font-family: karla;
+    font-size: x-large;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    text-align: center;
+    margin-top: 25px;
+    
+}
+hr{
+    border: 1px solid #4346448c;
+    width: 500px;
+    margin-top: 50px;
+}
